@@ -22,13 +22,13 @@
 		74C59BCA1696C20200D029EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74C59BCC1696C20200D029EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74C59BCE1696C20200D029EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		74C59BD21696C20200D029EE /* TestApp-Info.plist */ = {isa = PBXFileReference; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
+		74C59BD21696C20200D029EE /* TestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp-Info.plist"; sourceTree = "<group>"; };
 		74C59BD41696C20200D029EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74C59BD61696C20200D029EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		74C59BD81696C20200D029EE /* TestApp-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
-		74C59BD91696C20200D029EE /* CITI_AppDelegate.h */ = {isa = PBXFileReference; path = CITI_AppDelegate.h; sourceTree = "<group>"; };
+		74C59BD81696C20200D029EE /* TestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp-Prefix.pch"; sourceTree = "<group>"; };
+		74C59BD91696C20200D029EE /* CITI_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CITI_AppDelegate.h; sourceTree = "<group>"; };
 		74C59BDA1696C20200D029EE /* CITI_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CITI_AppDelegate.m; sourceTree = "<group>"; };
-		74C59BDC1696C20200D029EE /* CITI_ViewController.h */ = {isa = PBXFileReference; path = CITI_ViewController.h; sourceTree = "<group>"; };
+		74C59BDC1696C20200D029EE /* CITI_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CITI_ViewController.h; sourceTree = "<group>"; };
 		74C59BDD1696C20200D029EE /* CITI_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CITI_ViewController.m; sourceTree = "<group>"; };
 		74C59BE01696C20200D029EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CITI_ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
