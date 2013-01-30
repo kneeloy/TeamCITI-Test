@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7484FEA016B8F615004FAD52 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484FE9F16B8F615004FAD52 /* SenTestingKit.framework */; };
 		7484FEA116B8F615004FAD52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C59BCA1696C20200D029EE /* UIKit.framework */; };
 		7484FEA216B8F615004FAD52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C59BCC1696C20200D029EE /* Foundation.framework */; };
 		7484FEA816B8F615004FAD52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7484FEA616B8F615004FAD52 /* InfoPlist.strings */; };
 		7484FEAB16B8F615004FAD52 /* TestAppTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7484FEAA16B8F615004FAD52 /* TestAppTesting.m */; };
+		7484FEB416B8FA1B004FAD52 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7484FEB316B8FA1B004FAD52 /* SenTestingKit.framework */; };
 		74C59BCB1696C20200D029EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C59BCA1696C20200D029EE /* UIKit.framework */; };
 		74C59BCD1696C20200D029EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C59BCC1696C20200D029EE /* Foundation.framework */; };
 		74C59BCF1696C20200D029EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C59BCE1696C20200D029EE /* CoreGraphics.framework */; };
@@ -22,14 +22,24 @@
 		74C59BE11696C20200D029EE /* CITI_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C59BDF1696C20200D029EE /* CITI_ViewController.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7484FEB116B8F9F0004FAD52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C59BBD1696C20200D029EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C59BC51696C20200D029EE;
+			remoteInfo = TestApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7484FE9E16B8F615004FAD52 /* TestAppTesting.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTesting.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7484FE9F16B8F615004FAD52 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		7484FEA516B8F615004FAD52 /* TestAppTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestAppTesting-Info.plist"; sourceTree = "<group>"; };
 		7484FEA716B8F615004FAD52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7484FEA916B8F615004FAD52 /* TestAppTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppTesting.h; sourceTree = "<group>"; };
 		7484FEAA16B8F615004FAD52 /* TestAppTesting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppTesting.m; sourceTree = "<group>"; };
 		7484FEAC16B8F615004FAD52 /* TestAppTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestAppTesting-Prefix.pch"; sourceTree = "<group>"; };
+		7484FEB316B8FA1B004FAD52 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		74C59BC61696C20200D029EE /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C59BCA1696C20200D029EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		74C59BCC1696C20200D029EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7484FEA016B8F615004FAD52 /* SenTestingKit.framework in Frameworks */,
+				7484FEB416B8FA1B004FAD52 /* SenTestingKit.framework in Frameworks */,
 				7484FEA116B8F615004FAD52 /* UIKit.framework in Frameworks */,
 				7484FEA216B8F615004FAD52 /* Foundation.framework in Frameworks */,
 			);
@@ -92,6 +102,7 @@
 		74C59BBB1696C20200D029EE = {
 			isa = PBXGroup;
 			children = (
+				7484FEB316B8FA1B004FAD52 /* SenTestingKit.framework */,
 				74C59BD01696C20200D029EE /* TestApp */,
 				7484FEA316B8F615004FAD52 /* TestAppTesting */,
 				74C59BC91696C20200D029EE /* Frameworks */,
@@ -114,7 +125,6 @@
 				74C59BCA1696C20200D029EE /* UIKit.framework */,
 				74C59BCC1696C20200D029EE /* Foundation.framework */,
 				74C59BCE1696C20200D029EE /* CoreGraphics.framework */,
-				7484FE9F16B8F615004FAD52 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +168,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7484FEB216B8F9F0004FAD52 /* PBXTargetDependency */,
 			);
 			name = TestAppTesting;
 			productName = TestAppTesting;
@@ -263,6 +274,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7484FEB216B8F9F0004FAD52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C59BC51696C20200D029EE /* TestApp */;
+			targetProxy = 7484FEB116B8F9F0004FAD52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7484FEA616B8F615004FAD52 /* InfoPlist.strings */ = {
